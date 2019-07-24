@@ -1,0 +1,95 @@
+@charset "utf-8";
+.vux-header {
+  background: #00a5f5 !important;
+}
+.vux-header-left a{
+  color: #fff !important;
+}
+.vux-header .left-arrow:before{
+  border-color: #fff !important
+}
+
+.header{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 47px;
+  z-index: 999;
+  background: #fff;
+}
+.main_con{
+  padding: 76px 0 50px;
+}
+.vux-popup-picker-placeholder, .vux-cell-placeholder{
+  color: #9e9d9d !important;
+}
+/* 求购单 报价单 */
+.sell{
+  padding: 0.05rem 0.1rem;
+  background: #DCDCDC;
+}
+.form_section+.form_section{
+  margin-top: 0.1rem;
+}
+.sell .form_section{
+  background: #fff;
+  padding: 0.08rem 0.15rem 0.08rem;
+  border-radius: 5px;
+}
+.sell .form_item{
+  position: relative;
+  height: 0.4rem;
+  border-radius: 5px;
+  margin-bottom: 0.06rem;
+}
+.sell .form_item span{
+  /* position: relative;
+  display: inline-block;
+  top: 1px;
+  width: 0.8rem;
+  color: #565656; */
+}
+.sell .form_item label{
+  align-items: center;
+  padding: 0.07rem;
+  width: 100%;
+  font-size: 0.14rem
+}
+.sell .vux-cell-value{
+  color: #333;
+}
+.sell .form_item input{
+  text-align: right;
+  height: 0.22rem;
+  border: none;
+  padding-left: 0.1rem;
+  width: 65%;
+  font-size: 0.14rem
+}
+.sell .right span{
+  margin-left: 7px;
+  top: 3px;
+  left: 16px;
+  width: auto;
+  border:none;
+  font-size: 0.14rem;
+}
+.sell .submit{
+  display: inline-block;
+  margin-top: 0.05rem;
+  width: 100%;
+  height: 0.4rem;
+  line-height: 0.4rem;
+  text-align: center;
+  background: #1593ff;
+  color: #fff;
+  border: 1px solid #00a5f5;
+  border-radius: 3px;
+  font-size: 0.16rem
+}
+.error{
+  color: #e60012;
+  text-align: right;
+  padding-top: 0.03rem;
+}
